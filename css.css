@@ -1,0 +1,74 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: sans-serif                                
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Website-background.jpg));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.list-inline-item:hover{
+    transition: 0.4s ease;
+    box-shadow: 2px 4px 10px 5px red;
+
+}
+.image{
+    width: 50px;
+    margin-bottom: 10px;
+    
+}
+.btn:hover{
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.4s;
+    background-color:blue;
+    color: white;
+    box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.623);
+    border: none;
+}
+.card-title:hover{
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    cursor: pointer;
+}
+.footer-class:hover{
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    cursor: pointer;
+
+}
+.main-class{
+    font-weight: bold;
+}
+.main-class:hover{
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px 3px red;
+ 
+}
+::-webkit-scorllbar{
+    width: 10px;
+}
+.slider-txt{
+    font-weight: bolder;
+}
+.slider-heading{
+    font-weight: bolder;
+    border-bottom: 3px dotted red;
+} 
+.cut-price{
+    text-decoration: line-through;
+   
+}
